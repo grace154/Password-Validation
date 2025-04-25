@@ -8,10 +8,10 @@ function password(str) {
 }
 
 
-console.log(password("Abcd1234")); 
-console.log(password("Abcd123")); 
-console.log(password("abcd1234")); 
-console.log(password("AbcdefGhijKlmnopQRsTuvwxyZ1234567890")); 
-console.log(password("ABCD1234")); 
-console.log(password("Ab1!@#$%^&*()-_+={}[]|\\:;?/>.<,")); 
-console.log(password("!@#$%^&*()-_+={}[]|\\:;?/>.<,")); 
+console.log(password("Abcd1234"));// true
+console.log(password("Abcd123")); // false
+console.log(password("abcd1234")); // false
+console.log(password("AbcdefGhijKlmnopQRsTuvwxyZ1234567890")); // true
+console.log(password("ABCD1234")); false
+console.log(password("Ab1!@#$%^&*()-_+={}[]|\\:;?/>.<,")); // true
+console.log(password("!@#$%^&*()-_+={}[]|\\:;?/>.<,")); //false
