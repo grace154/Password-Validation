@@ -5,7 +5,7 @@ This project contains a JavaScript function that validates a password based on s
 - It must contain at least one lowercase letter.
 - It must contain at least one number.
 - It must be at least 8 characters long.
-- 
+  
 The function returns `true` if the password is valid and `false` if it does not meet the criteria.
 
 ## Function
